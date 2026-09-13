@@ -1,0 +1,203 @@
+    1  ls
+    2  cd
+    3  cd ..
+    4  ls
+    5  sudo apt update && sudo apt install git -y
+    6  mkdir main
+    7  sudo mkdir main
+    8  cd main
+    9  rm main
+   10  cd
+   11  ls
+   12  cd
+   13  cd ..
+   14  rm main
+   15  sudo rm -r main
+   16  ls
+   17  mkdir git-resource
+   18  cd thirumalai
+   19  ls
+   20  mkdir git-resource
+   21  ls
+   22  clear
+   23  cd thirumalai
+   24  clear
+   25  cd thirumalai
+   26  cd ..
+   27  cd thirumalai
+   28  clear
+   29  cd ..
+   30  cd thirumalai
+   31  ls
+   32  git clone https://github.com/thiru-00/git-resource.git
+   33  rm git-resource
+   34  ls
+   35  sudo rm git-resource
+   36  sudo rm -r git-resource
+   37  ls
+   38  git clone https://github.com/thiru-00/git-resource.git
+   39  clear
+   40  cd..
+   41  cd ..
+   42  cd thirumalai
+   43  ls
+   44  sudo rm -r git-resource
+   45  ls
+   46  git clone https://github.com/thiru-00/git-resource.git
+   47  ls
+   48  cd git-resource
+   49  ls
+   50  cd ..
+   51  sudo rm -r git-resource
+   52  git clone https://github.com/thiru-00/git-resource.git
+   53  ls
+   54  cd git-resource
+   55  ls
+   56  cat one.txt
+   57  git init
+   58  ls -a
+   59  git status
+   60  touch two.txt
+   61  mkdir Myfolder
+   62  cd Myfolder
+   63  touch three.txt
+   64  cd ..
+   65  ls
+   66  git status
+   67  vim two.txt
+   68  git status
+   69  git add.
+   70  git --help
+   71  git --all
+   72  cd ..
+   73  git add.
+   74  git add -A
+   75  git status
+   76  ls
+   77  cd git-resource
+   78  git add -A
+   79  git status
+   80  git commit -m "one.txt,two.txt,Myfolder are created and modified"
+   81  git config --global user.email "thirumalai.kb2@gmail.com"
+   82  git config --global user.name "Thirumalai K"
+   83  git commit -m "one.txt,two.txt,Myfolder(three.txt) are created and modified"
+   84  git log
+   85  ls
+   86  touch four.txt
+   87  vim four.txt
+   88  git status
+   89  git add four.txt
+   90  git status
+   91  git commit -m "four.txt was created and modified"
+   92  ls
+   93  git log
+   94  git reset HEAD~
+   95  ls
+   96  git status
+   97  git commit -m "four.txt was reset and commited"
+   98  ls
+   99  git log
+  100  git reset --hard
+  101  git log
+  102  ls
+  103  cat four.txt
+  104  git rm four.txt
+  105  git status
+  106  git add -A
+  107  git commit -m "four.txt"
+  108  git status
+  109  git log
+  110  ls
+  111  cat four.txt
+  112  git branch
+  113  git branch development
+  114  git branch
+  115  git checkout development
+  116  ls
+  117  git log
+  118  touch five.txt
+  119  git status
+  120  git add --all
+  121  git commit -m "five.txt was created and commited in development branch"
+  122  ls
+  123  git checkout main
+  124  ls
+  125  git merge development -m "development branch was merged to main branch"
+  126  ls
+  127  git log
+  128  git diff 59dba3c37bc7d21cdc5f5fa42380516af2b5b607 f02a6030e98b8ae85be81072973df075dda3d4ed
+  129  git push origin main
+  130  history > session_history.txt
+  131  cat session_history.txt
+  132  clear
+  133  cd ..
+  134  git clone https://github.com/thiru-00/devops-task-tracker.git
+  135  cd thirumalai
+  136  git clone https://github.com/thiru-00/devops-task-tracker.git
+  137  ls
+  138  cd devops-task-tracker
+  139  ls
+  140  git init
+  141  git status
+  142  git add.
+  143  git add*
+  144  git add -A
+  145  git status
+  146  git commit -m "app.py is modified and completed the coding process"
+  147  git status
+  148  git branch testing
+  149  git checkout testing
+  150  ls
+  151  cat app.py
+  152  ls
+  153  git branch
+  154  touch testing_completed.py
+  155  ls
+  156  git status
+  157  git add -A
+  158  git commit -m "tesing_completed.py file was created and added"
+  159  git beanch demo_run
+  160  git branch demo_run
+  161  git checkout demo_run
+  162  mkdir myfolder
+  163  cd myfolder
+  164  touch valid.txt
+  165  git status
+  166  cat valid.txt
+  167  git add -A
+  168  git commit -m "valid.txt was added and validated @ 13-09-2026"
+  169  git checkout main
+  170  git merge testing -m "testing branch was merged with main"
+  171  git merge demo_run -m "demo_run branch was merged with main"
+  172  git checkout testing
+  173  git merge demo_run -m " merging demo_run with testing"
+  174  git checkout main
+  175  git log
+  176  git log --onelone
+  177  git log --oneline
+  178  git diff 0586bd7 756aaeb
+  179  git mkdir universal
+  180  mkdir universal
+  181  ls
+  182  cd ..
+  183  ls
+  184  mkdir api_file
+  185  cd api_file
+  186  touch api.py
+  187  "first api">api.py
+  188  api.py<<"first api key"
+done
+q
+api.py 
+first api key
+
+  189  cat api.py
+  190  git status
+  191  cd ..
+  192  git status
+  193  git add -A
+  194  git commit -m "Api.py was created and added"
+  195  git push origin main
+  196  git checkout testing
+  197  git push origin main
+  198  history>"commad_file.log"
